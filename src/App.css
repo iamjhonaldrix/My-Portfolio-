@@ -1,0 +1,303 @@
+
+.main {
+  width: 690px;
+  max-width: 100%;
+}
+
+.header,
+.header.dark {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+body {
+  transition: all 0.7s ease;
+}
+
+body.dark {
+  background-color: #000000;
+  color: #eee;
+}
+
+.header-left {
+  display: flex;
+  gap: 20px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  gap: 10px;
+}
+
+.buttons button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+button:hover {
+  transition: all 0.3s ease;
+  transform: scale(1.2);
+}
+
+.dropdown {
+  list-style: none;
+  position: absolute;
+  top: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 8px;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+.dropdown a:hover {
+  transition: all 0.2s ease;
+  transform: scale(1.25);
+}
+
+body.dark .dropdown {
+  background-color: #333; 
+}
+
+body.dark .dropdown a {
+  color: white;
+}
+
+.dropdown a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: large;
+}
+
+.myAbout h2{
+  display: flex;
+  font-family: 'Inter', 'Roboto', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;;
+  font-size: 23px;
+
+}
+
+.myAbout {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 15px;
+  padding: 20px;
+}
+
+.myAbouts {
+  padding: 20px;
+} 
+
+.myAbout p {
+  margin-top: 2%;
+}
+
+body.dark .myAbouts {
+  background-color: #333; 
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.experience {
+  padding: 20px;
+}
+
+.experience ul {
+  margin-top: 2%;
+}
+
+ul {
+  list-style: none;
+}
+
+body.dark .experience {
+  background-color: #333; 
+  border-radius: 5px;
+}
+
+.tech-stacks {
+  display: grid;
+  grid-template-columns: 3fr 2fr; 
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.see {
+  display: flex;
+  gap: 50%;
+}
+
+.see a {
+  text-decoration: none;
+  color: black;
+}
+
+body.dark .see a {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .tech-stacks {
+    grid-template-columns: 1fr; 
+  }
+}
+
+.mystack h2 {
+  margin-bottom: 15px;
+}
+
+.category {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.category h3 {
+  margin-bottom: 8px;
+  font-size: 16px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.see button {
+  font-size: 12px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 5px;
+}
+
+.skills span {
+  background-color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+body.dark .category {
+  background-color: #333;
+}
+
+body.dark .skills span {
+  background-color: #333;
+  color: #fff;
+}
+
+.whoami {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.whoami h5 {
+  font-size: 15px;
+}
+
+body.dark .whoami {
+  background-color: #333;
+  color: #ffffff;
+}
+
+.myGallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  padding: 20px;
+}
+
+.photos img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.photos img:hover {
+  transform: scale(1.20);
+}
+
+.see2 {
+  list-style: none;
+  display: flex;
+  margin-right: 5%;
+  justify-content: flex-end;
+}
+
+.see2 a {
+  color: black;
+  text-decoration: none;
+}
+
+body.dark .see2 a {
+  color: white;
+}
+
+body.dark .photos img {
+  filter: brightness(0.9);
+}
+
+@media (max-width: 426px) {
+
+  .main {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .header-left {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .buttons {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .myAbout {
+    grid-template-columns: 1fr; 
+  }
+
+  .tech-stacks {
+    grid-template-columns: 1fr; 
+    padding: 10px;
+  }
+
+  .projects {
+    margin-top: 10px;
+  }
+
+  .myGallery {
+    grid-template-columns: 1fr 1fr; 
+  }
+
+  .photos img {
+    height: 120px;
+  }
+
+}
