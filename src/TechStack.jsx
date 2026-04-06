@@ -46,12 +46,12 @@ function TechStack() {
             </div>
         </div>
         <div className="whoami">
-            <h5>b3rl1n@kali ~ $ whoami</h5>
+            <h5>b3rl1n@kali ~ $ whoami</h5><br />
             <p>
-                Jhon Aldrix Bernil | b3rl1n | PH 
+                Jhon Aldrix Bernil | b3rl1n | PH<br /><br />
             </p>
             <p>
-                Polytechnic University of the Philippines
+                Polytechnic University of the Philippines<br /><br />
             </p>
             <p>
                 A Bachelor of Science in Information Technology student from PUP, with interests in web development, programming, and cybersecurity.<br /><br />
