@@ -13,7 +13,7 @@ function Header( {darkMode, setDarkMode}) {
         <header className={darkMode ? "header dark" : "header"}>
             <div className="header-left">
                 <img
-                src={darkMode ? "/public/image/b3rl1n.png" : "/public/image/profile.png"} 
+                src={darkMode ? "/image/b3rl1n.png" : "/image/profile.png"} 
                 alt="Profile"
                 style={{ width: "150px", height: "150px", objectFit: "cover" }}
                 />
