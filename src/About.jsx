@@ -5,7 +5,7 @@ function About() {
             <div className="myAbouts">
             <h2>About</h2>
             <p>    
-                I’m a passionate software developer and cybersecurity enthusiast focused on building secure and efficient digital solutions. I specialize in working with Python, C, C#, and web technologies to create modern applications and explore system vulnerabilities.
+                I’m a passionate software developer and cybersecurity enthusiast focused on building secure and efficient digital solutions. I specialize in working with Python, JavaScript and web technologies to create modern applications and explore system vulnerabilities.
                 <br /><br />
                 I’ve worked on various projects such as web development, scripting, and cybersecurity challenges including CTFs (Capture The Flag). These experiences helped me strengthen my problem-solving skills and deepen my understanding of how systems work and how they can be secured.
                 <br/><br/>
