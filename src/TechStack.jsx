@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
+
 function TechStack() {
   return (
     <div className="tech-stacks">
         <div className="mystack">
             <div className="see">
                  <h2>Tech Stack</h2>
-                  <a href="#">View All &gt;</a>
+                  <Link to="/tech-stack">View All</Link>
             </div>
 
             <div className="category">
