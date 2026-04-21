@@ -6,6 +6,7 @@ import Footer from './Footer.jsx';
 import About from './About.jsx';
 import TechStack from './TechStack.jsx';
 import AllTechStack from "./AllTechStack.jsx";
+import CertBadges from './CertBadges.jsx';
 import Gallery from './Gallery.jsx';
 
 
@@ -33,6 +34,7 @@ function App() {
             <>
               <About />
               <TechStack />
+              <CertBadges />
               <Gallery />
             </>
           }
