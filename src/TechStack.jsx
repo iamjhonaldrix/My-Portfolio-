@@ -6,7 +6,7 @@ function TechStack() {
       <div className="mystack">
         <div className="see">
           <h2>Cybersecurity Portfolio</h2>
-          <Link to="/tech-stack">View All</Link>
+          <Link to="/tech-stack">View &gt;</Link>
         </div>
 
         <div className="category">
@@ -33,8 +33,8 @@ function TechStack() {
         <div className="category">
           <h3>Programming</h3>
           <div className="skills">
-            <span>Python (Basic)</span>
-            <span>JavaScript (Basic)</span>
+            <span>Python</span>
+            <span>JavaScript</span>
           </div>
         </div>
       </div>
@@ -43,18 +43,27 @@ function TechStack() {
         <h5>b3rl1n@kali ~ $ whoami</h5>
         <br />
 
-        <p>Jhon Aldrix Bernil | b3rl1n | PH</p>
-        <br />
-
-        <p>Polytechnic University of the Philippines</p>
-        <br />
-
         <p>
-          IT student learning cybersecurity, networking, and ethical hacking.
-          I am still a beginner, but I am practicing through CTFs and labs to improve my skills.
+          Jhon Aldrix Bernil | b3rl1n | PH<br /><br />
         </p>
 
-        <p>A1SBERG cybersecurity organization member.</p>
+        <p>
+          Polytechnic University of the Philippines<br /><br />
+        </p>
+
+        <p>
+          Cybersecurity student focused on ethical hacking, penetration testing,
+          and defensive security practices.<br /><br />
+
+          Actively learning through CTFs, labs (TryHackMe / Hack The Box style environments),
+          and real-world security concepts.<br /><br />
+
+          Passionate about understanding how systems break — and how to secure them.
+        </p>
+
+        <p>
+          Member of A1SBERG cybersecurity community.
+        </p>
       </div>
     </div>
   );

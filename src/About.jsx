@@ -1,32 +1,52 @@
 function About() {
+  return (
+    <div className="myAbout">
+      <div className="myAbouts">
+        <h2>About</h2>
+        <p>
+          I’m a cybersecurity enthusiast and IT student focused on building secure and efficient digital systems.
+          I work with Python, JavaScript, and web technologies to develop applications and understand how systems can be protected from vulnerabilities.
+          <br /><br />
+          I have experience working on web development projects, scripting tasks, and cybersecurity challenges such as CTF (Capture The Flag) activities.
+          These experiences help me improve my problem-solving skills and deepen my understanding of system security.
+          <br /><br />
+          I enjoy learning new technologies, exploring ethical hacking concepts, and improving my skills in both development and cybersecurity.
+          <br /><br />
+          Currently, I am strengthening my knowledge in cybersecurity, networking, and system security fundamentals.
+        </p>
+      </div>
 
-    return (
-        <div className="myAbout">
-            <div className="myAbouts">
-            <h2>About</h2>
-            <p>    
-                I’m a passionate software developer and cybersecurity enthusiast focused on building secure and efficient digital solutions. I specialize in working with Python, JavaScript and web technologies to create modern applications and explore system vulnerabilities.
-                <br /><br />
-                I’ve worked on various projects such as web development, scripting, and cybersecurity challenges including CTFs (Capture The Flag). These experiences helped me strengthen my problem-solving skills and deepen my understanding of how systems work and how they can be secured.
-                <br/><br/>
-                I enjoy sharing knowledge, experimenting with new technologies, and continuously learning—especially in areas like ethical hacking, automation, and backend development.
-                <br/><br/>
-                Currently, I’m expanding my skills in cybersecurity and artificial intelligence, aiming to develop secure, intelligent systems that solve real-world problems.
-            </p>
-            </div>
-            <div className="experience">
-            <h2>Experience</h2>
-            <ul>
-                <li>Developed responsive web applications using HTML, CSS, JavaScript, and React.</li><br />
-                <li>Built personal projects including portfolio websites and web apps.</li><br />
-                <li>Used Python (Flask/Django) for backend development and automation.</li><br />
-                <li>Participated in CTF cybersecurity challenges.</li><br />
-                <li>Worked with Linux, Git, and GitHub.</li><br />
-                <li>Continuously learning modern web and security technologies.</li>
-            </ul>
-            </div>
-        </div>
-    );
+      <div className="experience">
+        <h2>Cybersecurity Practice</h2>
+
+        <ul>
+          <li>
+            Practicing cybersecurity fundamentals through CTF (Capture The Flag) challenges.
+          </li>
+            <br />
+          <li>
+            Learning ethical hacking concepts such as scanning, enumeration, and basic vulnerability analysis.
+          </li>
+            <br />
+          <li>
+            Working with Linux for system navigation, file management, and security tools.
+          </li>
+            <br />
+          <li>
+            Using tools like Nmap and Wireshark for basic network scanning and traffic analysis.
+          </li>
+            <br />
+          <li>
+            Managing projects using Git and GitHub for version control and collaboration.
+          </li>
+            <br />
+          <li>
+            Continuously studying web security and improving problem-solving skills in cybersecurity.
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
 }
 
-export default About
+export default About;

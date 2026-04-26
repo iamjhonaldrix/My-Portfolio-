@@ -135,7 +135,7 @@ body.dark .experience {
 
 .see {
   display: flex;
-  gap: 40%;
+  gap: 20%;
 }
 
 .see a {
@@ -302,36 +302,41 @@ body.dark .photos img {
 .yellow { background: #ffbd2e; }
 .green { background: #27c93f; }
 
-/* TERMINAL BODY */
+/* ===================== */
+/* TERMINAL BODY (KALI STYLE) */
+/* ===================== */
+
 .terminalContent {
   max-width: 850px;
   margin: auto;
-  background: #0b0f0b;
-  border: 1px solid #1a1a1a;
+  background: #0d0f12; /* deep Kali-like dark */
+  border: 1px solid #1f2a1f;
   border-radius: 0 0 10px 10px;
   padding: 20px;
+  font-family: "Fira Code", monospace;
+  color: #d0d0d0;
 }
 
-/* COMMAND */
+/* COMMAND INPUT */
 .cmd {
-  color: #00ff88;
+  color: #8ae234; /* classic Kali green */
 }
 
 /* SECTION LABEL */
 .section {
-  color: #4ade80;
+  color: #6fcf97; /* softer green */
   font-weight: bold;
 }
 
 /* OUTPUT TEXT */
 .output {
-  color: #caffd8;
+  color: #cfd6dc; /* light gray for readability */
   margin-left: 10px;
 }
 
 /* SUCCESS MESSAGE */
 .success {
-  color: #00ff88;
+  color: #8ae234;
   font-weight: bold;
 }
 
@@ -340,7 +345,7 @@ body.dark .photos img {
 /* ===================== */
 
 .cdCmd {
-  color: #00ff88;
+  color: #8ae234;
   font-family: "Fira Code", monospace;
   text-decoration: none;
   display: inline-block;
@@ -352,12 +357,12 @@ body.dark .photos img {
 /* terminal prefix */
 .cdCmd::before {
   content: "$ ";
-  color: #00ff88;
+  color: #8ae234;
 }
 
 /* hover effect */
 .cdCmd:hover {
-  color: #7CFFB2;
+  color: #b6f2c2;
   transform: translateX(6px);
 }
 
@@ -366,6 +371,7 @@ body.dark .photos img {
   content: "_";
   animation: blink 1s infinite;
   margin-left: 2px;
+  color: #8ae234;
 }
 
 /* certbadges */
