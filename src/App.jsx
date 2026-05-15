@@ -8,6 +8,7 @@ import TechStack from './TechStack.jsx';
 import AllTechStack from "./AllTechStack.jsx";
 import CertBadges from './CertBadges.jsx';
 import Gallery from './Gallery.jsx';
+import AllPhotos from './AllPhotos.jsx';
 
 
 import './App.css'
@@ -41,6 +42,7 @@ function App() {
         />
 
         <Route path="/tech-stack" element={<AllTechStack />} />
+        <Route path="/photos" element={<AllPhotos />} />
       </Routes>
 
       <Footer />
